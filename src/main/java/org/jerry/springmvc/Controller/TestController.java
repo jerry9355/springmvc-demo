@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class TestController {
 	
-	@RequestMapping()
+	@RequestMapping(value = "/index.do")
 	public String index() {
 		return "index";
 	} 
