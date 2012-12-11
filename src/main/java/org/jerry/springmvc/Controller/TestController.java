@@ -1,4 +1,4 @@
-package org.jerry.springmvc.Controller;
+package org.jerry.springmvc.controller;
 
 import org.jerry.springmvc.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-
 public class TestController {
 	@Autowired
 	TestService testService;
