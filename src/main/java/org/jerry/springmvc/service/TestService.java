@@ -13,10 +13,9 @@ public class TestService {
 	
 	
 	public String generateName() {
-		@SuppressWarnings("unused")
 		City city = cityDao.get(new Long(1));
 		
-		return this.getClass().getName();
+		return city.getName();
 	}
 
 }
