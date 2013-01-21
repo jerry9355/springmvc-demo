@@ -4,7 +4,7 @@
 <h2>Hello World!</h2>
 <div>
 ${cityName}
-<%=request.getAttribute("ctiyName") %>
+<%=request.getAttribute("cityName") %>
 </div>
 
 </body>

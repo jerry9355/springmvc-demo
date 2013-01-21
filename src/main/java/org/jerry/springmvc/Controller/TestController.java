@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class TestController {
 	@Autowired
-	TestService testService;
+	private TestService testService;
 	
 	@RequestMapping(value = "/index.do", method = { RequestMethod.GET, RequestMethod.POST })
 	public String index(ModelMap model, HttpServletRequest request) {
 		String name = testService.generateName();
-		model.put("ctiyName", name);
+		model.put("cityName", name);
 //		request.setAttribute("cityName", name);
 		return "index";
 	} 

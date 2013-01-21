@@ -42,7 +42,7 @@
 	<!-- the root set -->
 	<!--****************************** -->
 	<root>
-		<level value="DEBUG" />
+		<level value="INFO" />
 		<appender-ref ref="CONSOLE" />
 <!-- 		<appender-ref ref="ALL-APPENDER"/> -->
 <!-- 		<appender-ref ref="ERROR-APPENDER"/> -->

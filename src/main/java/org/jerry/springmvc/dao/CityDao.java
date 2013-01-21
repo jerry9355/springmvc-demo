@@ -2,7 +2,6 @@ package org.jerry.springmvc.dao;
 
 import java.util.List;
 
-import org.apache.ibatis.session.SqlSession;
 import org.jerry.springmvc.model.City;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
